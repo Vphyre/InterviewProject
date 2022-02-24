@@ -27,7 +27,6 @@ public class CharacterMessage : MonoBehaviour
 
         if(timer <= 0 && messageTrigger)
         {
-            print("Entrou");
             messageTrigger = false;
             popOutObj.SetActive(false);
             popOutText.text = "";
